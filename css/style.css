@@ -1532,6 +1532,11 @@ footer .credits a {
     margin-bottom: 1.8rem;
   }
 }
+@media (max-width: 577px) {
+  #gooey-button {
+    display: none;
+  }
+}
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
