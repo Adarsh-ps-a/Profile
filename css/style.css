@@ -676,7 +676,7 @@ a:hover {
 
 /* Prelaoder */
 
-#preloader {
+#shuffletext {
   position: fixed;
   top: 0;
   left: 0;
@@ -684,9 +684,30 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  background-color: #57595c;
+  justify-content: center;
 }
 
+.shuffletext {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa;
+  font-family: monospace;
+}
+
+#shuffletext img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media (max-width: 577px) {
+  .shuffletext {
+    font-size: 14px;
+  }
+}
 #preloader:before {
   content: "";
   position: fixed;
