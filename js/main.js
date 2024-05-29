@@ -13,7 +13,7 @@
   $(window).on("load", function () {
     if ($("#shuffletext").length) {
       $("#shuffletext")
-        .delay(3700)
+        .delay(1700)
         .fadeOut("slow", function () {
           $(this).remove();
         });

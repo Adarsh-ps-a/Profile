@@ -62,7 +62,6 @@ class TextScramble {
 
 const phrases = [
   "C:\\Users\\Unknown>Hello World!!",
-  "C:\\User\\Unknown>Welcome :)",
 ];
 
 const el = document.querySelector(".shuffletext");
