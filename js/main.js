@@ -127,3 +127,21 @@
     },
   });
 })(jQuery);
+
+function handleSubmit(submit){
+    console.log(submit);
+    const form = submit.target;
+    const name = form.elements["name"].value;
+    const email = form.elements["email"].value;
+    const subject  = form.elements["subject"].value;
+    const  message = form.elements["message"].value;
+
+
+    const phoneNumber = "9567385574"; // Replace with recipient's phone number (without + or leading zeros)
+const data = "Name: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message;
+const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(data)}`;
+
+window.open(url, "_blank"); // Opens WhatsApp in a new tab
+
+
+}
