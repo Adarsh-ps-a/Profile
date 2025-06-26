@@ -137,7 +137,7 @@ function handleSubmit(submit){
     const  message = form.elements["message"].value;
 
 
-    const phoneNumber = "9567385574"; // Replace with recipient's phone number (without + or leading zeros)
+    const phoneNumber = "9567385574"; 
 const data = "Name: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message;
 const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(data)}`;
 
