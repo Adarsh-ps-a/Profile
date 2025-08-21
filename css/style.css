@@ -1191,6 +1191,13 @@ a:hover {
   font-size: 1.2rem;
 }
 
+#successMessage{
+  display: none;
+  color: green;
+  cursor: not-allowed;
+  background: #fff;
+}
+
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
